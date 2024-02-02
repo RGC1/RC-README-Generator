@@ -130,5 +130,5 @@ dist
 .pnp.*
 
 # misc
-.DS_Store
+.DS_Store/
 .vscode/
