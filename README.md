@@ -12,6 +12,10 @@ The app requires NPM inquirer packages
 
 Link for demo: https://drive.google.com/file/d/1Ot13IT1H4-Kkk7lrSavMoOs9fkubwF04/view?pli=1
 
+## Screenshot
+
+![Alt text](assets/images/READMEscreenshot.jpg)
+
 
 ## Resources
 
