@@ -17,11 +17,6 @@ const questions = [
 },
 {
     type: 'input',
-    name: 'table of Contents',
-    message: 'Provide the table of contents:',
-},
-{
-    type: 'input',
     name: 'installation',
     message: 'Provide the installation requirements:',
 },
@@ -38,7 +33,7 @@ const questions = [
         'MIT Licence', 
         'Apache License 2.0', 
         'GNU General Public License', 
-        'Berkeley Software Distribution License'
+        'ISC License'
     ]
 },
 {
@@ -77,7 +72,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
         .then((data) => {
-        writeToFile("./utils/README.md", generateMarkdown(data));
+        writeToFile("./assets/README.md", generateMarkdown(data));
         console.log(data);
     });
 }
